@@ -1,5 +1,5 @@
 
-# **SPOTIFY DATA ANALYSIS**
+# **Spotify Data Analysis**
 Projekat iz predmeta **_Sistemi Baza Podataka_**, koji se bavi analizom podataka o podacima Spotify aplikacije koriscenjem MongoDB NoSQL baze podataka
 
 Autori projekta su Miljan Lazić RA212/2020, Aleksandar Milović RA67/2020
