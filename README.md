@@ -14,3 +14,4 @@ Za početak pokrećemo našu skriptu koja sve podatke iz .SQLite prebacuje u Mon
 Skripta se nalazi ```scripts/data_migration.py``` i pokreće se komandom u terminalu(podaci o Data-Setu moraju da se nalaze takodje u scripts folderu) ```Python data_migration.py``` 
 
 
+
