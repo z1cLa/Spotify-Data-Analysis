@@ -18,3 +18,15 @@ Skripta se nalazi ```scripts/data_migration.py``` i pokreće se komandom u termi
 Neoptimizovani upiti čiji je autor Miljan nalaze se u direktorijumu ```scripts/Queries/ML/#1 #2 itd.``` i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js itd.```
 
 Neoptimizovani upiti čiji je autor Aleksandar nalaze se u direkrotijumu ```scripts/Queries/AM/#1 #2 itd.``` i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js itd.```
+
+## Optimizacija
+
+Nakon toga radjena je optimizacija šeme baze, više o tome možete saznati u prezentaciji
+
+Optimizacioni upiti nalaze se u direktorijumu ```/optimisations```
+
+Upiti #1_TRACKS_WITH_ARTISTS.js, #2_TRACKS_WITH_ARTISTS_AND_AF.js, #3_TRACKS_OPTIMIZED.js rade na optimizaciji svih podataka koji se koriste za upite koji koriste tracks kolekciju, i kao output daje kolekciju **tracks_optimized**
+
+Upit #4_ARTISTS_WITH_GENRES.js u kolekciju Artists ubacuje sve zanrove u kojima je artist radio i kao output daje kolekciju **artists_with_genres**
+
+Upit #5_ALBUMS_WITH_TRACKS.js u kolekciju Albums dodaje sve trake sa tog albuma i kao output daje kolekciju **albums_with_tracks**
