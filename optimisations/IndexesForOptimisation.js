@@ -7,7 +7,7 @@ db.artists.createIndex({ id: 1 });
 db.audio_features.createIndex({ id: 1 });
 
 //#4
-db.artists.createIndex({ id: 1 });
+db.artists.createIndex({ id: 1 }); // redundant
 db.r_artist_genre.createIndex({ artist_id: 1 });
 
 //#5
@@ -37,7 +37,7 @@ db.artists.dropIndex({ id: 1 });
 db.audio_features.dropIndex({ id: 1 });
 
 //#4
-db.artists.dropIndex({ id: 1 });
+db.artists.dropIndex({ id: 1 }); // redundant
 db.r_artist_genre.dropIndex({ artist_id: 1 });
 
 //#5

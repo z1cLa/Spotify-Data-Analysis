@@ -1,4 +1,3 @@
-// Kreiranje potrebnih indeksa
 db.artists.createIndex({ id: 1 });
 db.r_artist_genre.createIndex({ artist_id: 1 });
 

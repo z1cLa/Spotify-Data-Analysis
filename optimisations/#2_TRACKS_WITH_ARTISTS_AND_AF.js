@@ -25,7 +25,7 @@ db.tracks_with_artists.aggregate(
         as: "audio_features",
       },
     },
-    { $unwind: { path: "$audio_features", preserveNullAndEmptyArrays: true } }, // To convert from array to object and preserve empty
+    { $unwind: { path: "$audio_features", preserveNullAndEmptyArrays: true } },
     {
       $addFields: {
         audio_features: {
