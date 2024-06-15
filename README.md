@@ -16,4 +16,5 @@ Skripta se nalazi ```scripts/data_migration.py``` i pokreće se komandom u termi
 
 ## Pokretanje upita
 Neoptimizovani upiti čiji je autor Miljan nalaze se ```scripts/Queries/ML/#1 #2 itd.``` i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js itd.```
+
 Neoptimizovani upiti čiji je autor Aleksandar nalaze se ```scripts/Queries/AM/#1 #2 itd.``` i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js itd.```
