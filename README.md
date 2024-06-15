@@ -15,9 +15,11 @@ Za početak pokrećemo našu skriptu koja sve podatke iz .SQLite prebacuje u Mon
 Skripta se nalazi ```scripts/data_migration.py``` i pokreće se komandom u terminalu ```Python data_migration.py``` _(podaci o Data-Setu moraju da se nalaze takodje u scripts folderu)__
 
 ## Pokretanje upita
-Neoptimizovani upiti čiji je autor Miljan nalaze se u direktorijumu [scripts/Queries/ML/](scripts/Queries/ML/*) i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js...```
+Neoptimizovani upiti čiji je autor Miljan nalaze se u direktorijumu [scripts/Queries/ML/*](scripts/Queries/ML) i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js...```
 
-Neoptimizovani upiti čiji je autor Aleksandar nalaze se u direktorijumu [scripts/Queries/AM/](scripts/Queries/AM/*) i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js...```
+Neoptimizovani upiti čiji je autor Aleksandar nalaze se u direktorijumu [scripts/Queries/AM/*](scripts/Queries/AM) i njihovi nazivi su ```NotOptimized#1.js, NotOptimized#2.js...```
+
+Podatke koje smo dobili kao povratnu vrednost upita prikazali smo korišćenjem MetaBase alata, primeri tih grafikona nalaze se u direktorijumu [scripts/Queries/*](scripts/Queries ) i njihovi nazivi su ```MetaBase#1.png,MetaBase#2.png...```
 
 ## Optimizacija
 
@@ -34,9 +36,9 @@ Upit [Albums_With_Tracks](optimisations/#5_ALBUMS_WITH_TRACKS.js) u kolekciju Al
 _**Indeksi** korišćeni za upite optimizacije šeme nalaze se [optimisations/IndexesForOptimisation.js](optimisations/IndexesForOptimisation.js)_
 
 ## Pokretanje optimizovanih upita
-Optimizovani upiti čiji je autor Miljan nalaze se u direktorijumu [scripts/Queries/ML/](scripts/Queries/ML/*)  i njihovi nazivi su ```Optimized#1.js, Optimized#2.js...```
+Optimizovani upiti čiji je autor Miljan nalaze se u direktorijumu [scripts/Queries/ML/*](scripts/Queries/ML)  i njihovi nazivi su ```Optimized#1.js, Optimized#2.js...```
 
-Optimizovani upiti čiji je autor Aleksandar nalaze se u direktorijumu [scripts/Queries/AM/](scripts/Queries/AM/*) i njihovi nazivi su ```Optimized#1.js, Optimized#2.js...```
+Optimizovani upiti čiji je autor Aleksandar nalaze se u direktorijumu [scripts/Queries/AM/*](scripts/Queries/AM) i njihovi nazivi su ```Optimized#1.js, Optimized#2.js...```
 
 _**Indeksi** korišćeni za optimizovane upite nalaze se [scripts/Queries/Indexes.js](scripts/Queries/Indexes.js)_
 
