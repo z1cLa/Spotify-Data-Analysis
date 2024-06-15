@@ -48,7 +48,7 @@ Ovaj optimizovani MongoDB agregacijski upit efikasno pronalazi top 100 najtiših
 - $project: Definiše format izlaznih podataka, uključujući ime umetnika, žanrove, ID pesme, naziv pesme i glasnoću.
 
 
-Upit se izvršavao _**15.319s**_
+Upit se izvršavao _**0.022s**_
 
 
 ### MetaBase pregled podataka
