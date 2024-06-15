@@ -5,13 +5,13 @@ db.albums_with_tracks.createIndex({ track_ids: 1 });
 db.tracks_optimized.aggregate([
   {
     $lookup: {
-      from: "albums_with_tracks", // Koristimo optimizovanu kolekciju
-      localField: "id", // Polje 'id' iz kolekcije 'tracks'
-      foreignField: "track_ids", // Polje 'track_ids' iz kolekcije 'albums_with_tracks'
+      from: "albums_with_tracks",
+      localField: "id",
+      foreignField: "track_ids",
       as: "album_info",
     },
   },
-  { $unwind: "$album_info" }, // Otpakujemo informacije o albumu
+  { $unwind: "$album_info" },
   {
     $addFields: {
       release_date_as_date: { $toDate: "$album_info.release_date" },
