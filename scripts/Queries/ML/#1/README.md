@@ -40,5 +40,7 @@ Ovaj optimizovani MongoDB agregacijski pipeline analizira muzičke zapise povezu
 Upit se izvršavao _**15.319s**_
 
 ### MetaBase pregled podataka
-![MetaBase#1](scripts/Queries/ML/#1/MetaBase#1.png)
+![MetaBase#1](MetaBase%231.png)
+
+
 
